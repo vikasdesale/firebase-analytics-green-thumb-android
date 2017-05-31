@@ -85,10 +85,10 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
         // Call the line below to cause a crash.
         // Any crashes will reported to Firebase with Crash Reporting.
-         //fatalError();
+        //fatalError();
 
         // Call the line below to report a non-fatal crash
-      //  reportNonFatalError();
+        //  reportNonFatalError();
 
         mFirebaseRemoteConfig = FirebaseRemoteConfig.getInstance();
         FirebaseRemoteConfigSettings configSettings = new FirebaseRemoteConfigSettings.Builder()
